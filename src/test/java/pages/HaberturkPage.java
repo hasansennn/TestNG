@@ -13,3 +13,4 @@ public class HaberturkPage {
    @FindBy(xpath = "(//a[@class='name '])[1]" )
     public WebElement gundemClick;
 }
+

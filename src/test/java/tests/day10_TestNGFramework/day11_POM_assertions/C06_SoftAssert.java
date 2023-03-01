@@ -1,4 +1,4 @@
-package tests.day11_POM_assertions;
+package tests.day10_TestNGFramework.day11_POM_assertions;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
