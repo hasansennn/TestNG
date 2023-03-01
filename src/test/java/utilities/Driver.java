@@ -3,7 +3,7 @@ package utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pages.HepsiBuradaPage;
+
 
 import java.time.Duration;
 
@@ -29,7 +29,6 @@ public class Driver {
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-        driver.switchTo().frame(HepsiBuradaPage.cerezleriKabulEt);
         return driver;
 
     }
