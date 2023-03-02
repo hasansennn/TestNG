@@ -1,4 +1,4 @@
-package tests.day10_TestNGFramework.day11_POM_assertions;
+package tests.day11_POM_assertions;
 
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
@@ -10,7 +10,7 @@ import utilities.Driver;
 public class C05_SoftAssert {
 
 
-    @Test
+    @Test(groups = "smoke")
     public void amazonTesti(){
         /*
             Genel olarak

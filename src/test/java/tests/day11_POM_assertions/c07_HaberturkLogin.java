@@ -1,9 +1,8 @@
-package tests.day10_TestNGFramework.day11_POM_assertions;
+package tests.day11_POM_assertions;
 
 import org.testng.annotations.Test;
 
 import pages.HaberturkPage;
-import utilities.ConfigReader;
 import utilities.Driver;
 
 public class c07_HaberturkLogin {

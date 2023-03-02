@@ -1,16 +1,11 @@
-package tests.day10_TestNGFramework.day11_POM_assertions;
+package tests.day11_POM_assertions;
 
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Action;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import pages.YoutubePage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-import javax.swing.*;
-import javax.swing.plaf.basic.BasicSliderUI;
 
 public class YoutubeLogin {
 
