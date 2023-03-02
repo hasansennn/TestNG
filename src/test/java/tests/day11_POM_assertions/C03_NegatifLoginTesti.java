@@ -1,5 +1,6 @@
 package tests.day11_POM_assertions;
 
+import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QdPage;
@@ -32,7 +33,7 @@ public class C03_NegatifLoginTesti {
     }
 
 
-    @Test
+    @Test(groups = "smoke")
     public void negatifLogin2(){
         qdPage= new QdPage();
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));
@@ -46,7 +47,7 @@ public class C03_NegatifLoginTesti {
         Driver.closeDriver();
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void negatifLogin3(){
         qdPage= new QdPage();
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));

@@ -13,10 +13,12 @@ public class C02_ReusableMethodsSwitchwindows {
     public void switchinWindowsTesti(){
         //● https://the-internet.herokuapp.com/windows adresine gidin.
         Driver.getDriver().get("https://the-internet.herokuapp.com/windows");
+
         //● Sayfadaki textin “Opening a new window” olduğunu doğrulayın.
         //● Sayfa başlığının(title) “The Internet” olduğunu doğrulayın.
         //● Click Here butonuna basın.
         Driver.getDriver().findElement(By.linkText("Click Here")).click();
+
         //● Acilan yeni pencerenin sayfa başlığının (title) “New Window” oldugunu dogrulayin.
 
         ReusableMethods.switchToWindow("New Window");
