@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class Q02 {
+public class Q2 {
 
     /*
         - Birbirine bagimli testler olusturun.
