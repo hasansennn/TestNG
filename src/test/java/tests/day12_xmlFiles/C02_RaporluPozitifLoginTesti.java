@@ -27,11 +27,11 @@ public class C02_RaporluPozitifLoginTesti extends TestBaseRapor {
             // gecerli kullanici adi ve password ile giris yapin
             qdPage.emailKutusu.sendKeys(ConfigReader.getProperty("qdGecerliUsername"));
             extentTest.info("gecerli email yazildi");
-            qdPage.passwordKutusu.sendKeys(ConfigReader.getProperty("qdGecersizPassword"));
+            qdPage.passwordKutusu.sendKeys(ConfigReader.getProperty("qdGecerliPassword"));
             extentTest.info("gecerli password yazildi");
             qdPage.loginButonu.sendKeys(Keys.ENTER);
             extentTest.info("Login butonuna basildi");
-
+           ReusableMethods.bekle(5);
 
             // basarili bir sekilde giris yapildigini test edin
             Assert.assertTrue(qdPage.basariliGirisElementi.isDisplayed());
