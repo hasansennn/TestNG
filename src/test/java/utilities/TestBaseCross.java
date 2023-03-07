@@ -11,6 +11,7 @@ import java.time.Duration;
 public class TestBaseCross {
     protected WebDriver driver;
 
+
     @Parameters("browser")
     @BeforeMethod
     public void setUp(@Optional String browser){
