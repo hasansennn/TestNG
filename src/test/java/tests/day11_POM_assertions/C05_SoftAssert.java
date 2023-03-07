@@ -11,7 +11,7 @@ public class C05_SoftAssert {
 
 
     @Test(groups = "smoke")
-    public void amazonTesti(){
+    public void amazonTesti() throws InterruptedException {
         /*
             Genel olarak
             test edin denirse hard assert
@@ -28,6 +28,7 @@ public class C05_SoftAssert {
 
         // Nutella icin arama yapip, sonuclarin Nutella icerdigini dogrulayin
         AmazonPage amazonPage= new AmazonPage();
+        Thread.sleep(2000);
         amazonPage.aramaKutusu.sendKeys("Nutella" + Keys.ENTER);
 
         expectedIcerik ="Nutella";
