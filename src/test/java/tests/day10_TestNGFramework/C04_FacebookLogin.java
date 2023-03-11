@@ -35,6 +35,6 @@ public class C04_FacebookLogin {
 
         ReusableMethods.bekle(3);
 
-        Driver.closeDriver();
+      //  Driver.closeDriver();
     }
 }

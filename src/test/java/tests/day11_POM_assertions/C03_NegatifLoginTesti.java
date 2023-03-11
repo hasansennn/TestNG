@@ -1,6 +1,5 @@
 package tests.day11_POM_assertions;
 
-import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QdPage;

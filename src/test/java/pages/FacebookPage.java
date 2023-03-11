@@ -15,16 +15,16 @@ public class FacebookPage {
     @FindBy(xpath = "//button[@title='Only allow essential cookies']")
     public WebElement cookiesKabulButonu;
 
-    @FindBy(xpath = "//input[@placeholder='Email address or phone number']")
+    @FindBy(xpath = "//input[@class='inputtext _55r1 _6luy']")
     public WebElement emailKutusu;
 
-    @FindBy(xpath = "//input[@placeholder='Password']")
+    @FindBy(xpath = "//input[@class='inputtext _55r1 _6luy _9npi']")
     public WebElement passwordKutusu;
 
-    @FindBy(xpath = "//button[@name='login']")
+    @FindBy(xpath = "//button[@class='_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy']")
     public WebElement loginButonu;
 
-    @FindBy(xpath = "//div[@class='_9ay7']")
+    @FindBy(xpath = "//a[@class='_97w4']")
     public WebElement girisYapilamadiYaziElementi;
 }
 
